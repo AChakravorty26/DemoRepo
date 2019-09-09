@@ -52,8 +52,6 @@ public class UserService {
       return FAILURE_RESULT;
    }
 
-   
-   
    @PUT
    @Path("/update/users")
    @Produces(MediaType.APPLICATION_JSON)
